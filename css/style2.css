@@ -8,7 +8,7 @@
 
 body{
   min-height: 100vh;
-  background: linear-gradient(to left, #4f1eaa, #5d5fcf,#8052b4);
+  background-image: url(../img/neige.webp);
 }
  
 /*Scrollbar*/
@@ -55,7 +55,7 @@ p, input::placeholder{
   width:100%;
   border:none;
   color:#fff;
-  background:#1161ee;
+  background:#c63031;
 }
 #button-logout:hover,
 #button-logout:active{

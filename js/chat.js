@@ -86,7 +86,7 @@ function updateMessageList() {
 				const justification = myMessage ? 'message-right' : 'message-left';
 				const name = myMessage ? '' : messageList[j].user_name;
 
-				const color = myMessage ? 'bg-primary' : 'bg-light';
+				const color = myMessage ? 'bg-danger' : 'bg-light';
 
 				const txtColor = myMessage ? 'text-white' : 'text-muted';
 
@@ -139,7 +139,7 @@ function updateUserList() {
             <h6 class="mb-0"></h6>
             <small>${userList[j]}</small>
           </div>
-          <p class="mb-0">online</p>
+          <p class="mb-0"></p>
         </div>
       </div>
     </a>`;
