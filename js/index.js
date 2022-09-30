@@ -12,7 +12,7 @@ document.getElementById('button-login').addEventListener('click', function (e) {
 	// verif fields
 
 	if (username.length < 1 || password.length < 1) {
-		showSnackbar('You must feel all the form please');
+		showSnackbar('Vous devez remplir tout le formulaire s’il vous plaît');
 		return;
 	}
 
@@ -51,7 +51,7 @@ document.getElementById('button-sign-up').addEventListener('click', function (e)
 	// verif fields
 
 	if (username.length < 1 || password.length < 1 || password2.length < 1) {
-		showSnackbar('You must feel all the form please');
+		showSnackbar('Vous devez remplir tout le formulaire s’il vous plaît');
 		return;
 	}
 
