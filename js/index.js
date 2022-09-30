@@ -56,7 +56,7 @@ document.getElementById('button-sign-up').addEventListener('click', function (e)
 	}
 
 	if (password != password2) {
-		showSnackbar('Passwords must be the same');
+		showSnackbar('Les mots de passe doivent être identiques');
 		return;
 	}
 
