@@ -10,7 +10,10 @@ body{
   min-height: 100vh;
   background-image: url(../img/neige.webp);
 }
- 
+ .image{
+  text-align: center;
+  width: 50%;
+ }
 /*Scrollbar*/
 ::-webkit-scrollbar {
   width: 5px;
